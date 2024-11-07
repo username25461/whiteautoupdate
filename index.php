@@ -371,7 +371,6 @@ function getHtmlTag($tags, $index) {
         <<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[0]); ?> class="<?php echo substr($url_hash, 4, 9); ?>">
             <?php echo $content['company'][$shuffledArrayCompany[0]]['description']; ?>
         </<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[0]); ?>>
-		<<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[0]); ?>><a class="btn<?php echo substr($url_hash, 1, 5); ?> <?php echo substr($url_hash, 1, 7); ?>" href="<?php echo $content['company'][$shuffledArrayCompany[0]]['link']; ?>">Go to offer</a></<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[0]); ?>>
     </<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[0]); ?>>
 
     <<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[1]); ?> id="<?php echo $shuffledArrayCompany[1]; ?>" class="prod<?php echo substr($url_hash, 2, 8); ?> <?php echo substr($url_hash, 1, 5); ?>">
@@ -380,7 +379,6 @@ function getHtmlTag($tags, $index) {
         <<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[1]); ?> class="<?php echo substr($url_hash, 1, 5); ?>">
             <?php echo $content['company'][$shuffledArrayCompany[1]]['description']; ?>
         </<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[1]); ?>>
-		<<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[1]); ?>><a class="btn<?php echo substr($url_hash, 1, 5); ?> <?php echo substr($url_hash, 1, 7); ?>" href="<?php echo $content['company'][$shuffledArrayCompany[1]]['link']; ?>">Go to offer</a></<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[1]); ?>>
     </<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[1]); ?>>
 
     <<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[2]); ?> id="<?php echo $shuffledArrayCompany[2]; ?>" class="prod<?php echo substr($url_hash, 2, 8); ?> <?php echo substr($url_hash, 2, 7); ?>">
@@ -389,7 +387,6 @@ function getHtmlTag($tags, $index) {
         <<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[2]); ?> class="<?php echo substr($url_hash, 7, 6); ?>">
             <?php echo $content['company'][$shuffledArrayCompany[2]]['description']; ?>
         </<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[2]); ?>>
-		<<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[2]); ?>><a class="btn<?php echo substr($url_hash, 1, 5); ?> <?php echo substr($url_hash, 1, 4); ?>" href="<?php echo $content['company'][$shuffledArrayCompany[2]]['link']; ?>">Go to offer</a></<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[2]); ?>>
     </<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[2]); ?>>
 
     <<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[3]); ?> id="<?php echo $shuffledArrayCompany[3]; ?>" class="prod<?php echo substr($url_hash, 2, 8); ?> <?php echo substr($url_hash, 4, 4); ?>">
@@ -398,7 +395,6 @@ function getHtmlTag($tags, $index) {
         <<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[3]); ?> class="<?php echo substr($url_hash, 4, 8); ?>">
             <?php echo $content['company'][$shuffledArrayCompany[3]]['description']; ?>
         </<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[3]); ?>>
-		<<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[3]); ?>><a class="btn<?php echo substr($url_hash, 1, 5); ?> <?php echo substr($url_hash, 2, 4); ?>" href="<?php echo $content['company'][$shuffledArrayCompany[3]]['link']; ?>">Go to offer</a></<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[3]); ?>>
     </<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[3]); ?>>
 
     <<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[4]); ?> id="<?php echo $shuffledArrayCompany[4]; ?>" class="prod<?php echo substr($url_hash, 2, 8); ?> <?php echo substr($url_hash, 3, 6); ?>">
@@ -407,7 +403,6 @@ function getHtmlTag($tags, $index) {
         <<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[4]); ?> class="<?php echo substr($url_hash, 8, 6); ?>">
             <?php echo $content['company'][$shuffledArrayCompany[4]]['description']; ?>
         </<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[4]); ?>>
-		<<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[4]); ?>><a class="btn<?php echo substr($url_hash, 1, 5); ?> <?php echo substr($url_hash, 5, 3); ?>" href="<?php echo $content['company'][$shuffledArrayCompany[4]]['link']; ?>">Go to offer</a></<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[4]); ?>>
     </<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[4]); ?>>
 
     <<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[5]); ?> id="<?php echo $shuffledArrayCompany[5]; ?>" class="prod<?php echo substr($url_hash, 2, 8); ?> <?php echo substr($url_hash, 0, 6); ?>">
@@ -416,7 +411,6 @@ function getHtmlTag($tags, $index) {
         <<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[5]); ?> class="<?php echo substr($url_hash, 3, 9); ?>">
             <?php echo $content['company'][$shuffledArrayCompany[5]]['description']; ?>
         </<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[5]); ?>>
-		<<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[5]); ?>><a class="btn<?php echo substr($url_hash, 1, 5); ?> <?php echo substr($url_hash, 4, 5); ?>" href="<?php echo $content['company'][$shuffledArrayCompany[5]]['link']; ?>">Go to offer</a></<?php echo getHtmlTag($html_tag_p, $url_hash_number_array[5]); ?>>
     </<?php echo getHtmlTag($html_tag_article, $url_hash_number_array[5]); ?>>
 </div>
 
@@ -427,10 +421,9 @@ function getHtmlTag($tags, $index) {
 </div>
 <div class="Dsclaimer" style="padding: 30px;color:white;">
     <h1>Disclaimer</h1>
-If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at 
-admin@<script> document.write(window.location.hostname); </script>
+If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email 
 <h2>Disclaimers </h2>
-All the information on this website  - is published in good faith and for general information purpose only. Website <script> document.write(window.location.hostname); </script> does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website, is strictly at your own risk. Website <script> document.write(window.location.hostname); </script> will not be liable for any losses and/or damages in connection with the use of our website.
+All the information on this website  - is published in good faith and for general information purpose only. Website does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website, is strictly at your own risk. Website will not be liable for any losses and/or damages in connection with the use of our website.
 
 From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.
 
